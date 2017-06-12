@@ -1,0 +1,21 @@
+{
+    "name": "disparity/doctrine-orm-extension",
+    "description": "Extension for Doctrine ORM",
+    "keywords": ["orm", "database"],
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-4": { "Disparity\\Doctrine\\ORM\\": "src" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Disparity",
+            "email": "disparity-github@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
